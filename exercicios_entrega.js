@@ -1,7 +1,7 @@
 const RENDIMENTO_MENSAL = 3000;
-const IDADE = 21;
+const IDADE = 26;
 const TEM_DIVIDAS = true;
-const ANOS_TRABALHO = 2;
+const ANOS_TRABALHO = 3;
 
 const APROVACAO =
   RENDIMENTO_MENSAL >= 3000 && IDADE >= 25
