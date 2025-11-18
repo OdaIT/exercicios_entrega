@@ -1,11 +1,19 @@
-const RENDIMENTO_MENSAL = 3000;
-const IDADE = 26;
-const TEM_DIVIDAS = true;
-const ANOS_TRABALHO = 3;
+//Exercicios para entrega 18/11/2025
 
-const APROVACAO =
-  RENDIMENTO_MENSAL >= 3000 && IDADE >= 25
-    ? console.log("Aprovado Nível 1: Crédito de Alto Risco (Valor Máximo: 50.000 EUR).")
-    : RENDIMENTO_MENSAL >= 1500 && IDADE >= 20 && !TEM_DIVIDAS
-    ? console.log("Aprovado Nível 2: Crédito Padrão (Valor Máximo: 10.000 EUR).")
-    : console.log("Recusado: Não cumpre os critérios mínimos de elegibilidade.") ;
+//Exe 1
+
+function verificarParOuImpar(n){
+  if(n % 2 === 0){
+    return console.log("Par");
+  }else {
+    return console.log("Impar");
+  }
+}
+
+//verificarParOuImpar(20);
+
+//Exe 2
+
+function calcularIMC(peso, altura){
+  return console.log(`O IMC é ${peso} kg e ${altura} metro é ${peso / (altura * altura)}`)
+}
